@@ -1,0 +1,122 @@
+/* Police de caractères par défaut pour le corps du document */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Style pour l'en-tête du blog 
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }*/
+  
+ /* Style pour l'en-tête du blog */
+header {
+    background-color: #313234;
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 60px; /* Ajout d'une marge supérieure pour éviter que le titre ne soit caché */
+    text-align: center;
+  }
+  
+
+
+
+  /* Style pour la barre de menu */
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+ /* Style pour les éléments de la barre de menu */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    letter-spacing: 2px; /* Ajout de l'espacement entre les mots */
+  }
+  
+ /* quand on survole le text :
+  nav a:hover {
+    text-decoration: underline;
+  } 
+  
+  nav a:hover {
+  box-shadow: 0 0 10px #fff;
+}
+
+  
+  */
+
+  nav a:hover {
+    
+    transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Style pour le titre du blog */
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* Style pour le sous-titre du blog */
+  h2 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+  }
+  
+  /* Style pour le contenu principal du blog */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Style pour les articles du blog */
+  article {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  /* Style pour les titres des articles du blog */
+  article h3 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+  }
+  
+  /* Style pour les dates des articles du blog */
+  article .date {
+    color: #999;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+  }
+  
+  /* Style pour les liens dans les articles du blog */
+  article a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  article a:hover {
+    text-decoration: underline;
+  }
+  
